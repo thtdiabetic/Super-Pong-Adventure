@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Pong Game</h1>
+        <canvas id="pongCanvas" width="800" height="400"></canvas>
+        <div class="score-board">
+            <div id="playerScore" class="player-score">0</div>
+            <div id="computerScore" class="computer-score">0</div>
+        </div>
+        <button id="pauseButton" class="pause-button">⏸</button>
+        <div id="pauseMenu" class="pause-menu">
+            <h2>Paused</h2>
+            <button id="resumeButton">Resume</button>
+            <button id="restartButton">Restart</button>
+        </div>
+    </div>
+    <audio id="backgroundMusic" src="c:\Users\itzge\Documents\house of forbidden lemon\Imported\yt1s.com - FREE Lil Tjay x Lil Durk x Polo G  Emotional Rap Beat  RED FLAG.mp3" loop></audio>
+    <audio id="playerScoreSound" src="soundsforPong/rizz-sound-effect.mp3"></audio>
+    <audio id="computerScoreSound" src="soundsforPong/dry-fart.mp3"></audio>
+    <audio id="hitSound" src="soundsforPong/hitsound-online-audio-converter_x1T2cXH.mp3"></audio>
+    <script src="game.js"></script>
+</body>
+</html>
